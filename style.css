@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+.nav-item{
+    padding: 5px 50px;
+    
+}
+.header-contanier{
+    background-image: url(asset/sky.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2rem;
+     z-index: -1;
+     
+    
+}
+.image img{
+    width: 800px;
+    height: 500px;
+
+    margin-left: 600px;
+    position: relative;
+    margin-top: -60px;
+
+    
+
+}
+.header-content {
+
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.plane{
+    position: absolute;
+    top: 100px;
+    animation: flyplane 5s linear infinite;
+
+}
+@keyframes flyplane {
+    10%{
+        right: 3px;
+        transform: rotate(5deg);
+    }
+    50% {
+        bottom: 150px;
+        transform: rotate(0deg);
+    }
+    100%{
+        right: 50%;
+        transform: rotate(-5deg);
+    }
+
+}
+#visit
+span{
+    background-color: blue;
+    border-radius: 50px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    white-space: nowarp;
+}
+.info{
+    position: relative;
+    isolation: isolate;
+color: white;
+    
+    background-color:rgba(0, 0, 255, 0.879);
+    border-radius: 20px;
+
+
+}
+#tour .card{
+    border-radius: 20px;
+}
+.banner{
+    gap: 2rem;
+}
+.banner-card{
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--extra-light);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+
+}
+.banner-card h4{
+    font-size: 5rem;
+    font-weight: 500;
+    color: rgba(74, 74, 241, 0.916);
+}
+.discover{
+    margin-top: 4rem;
+    gap: 4rem 2rem;
+    text-align: start;
+    
+}
+.discover-card{
+    padding: 2rem 1rem;
+    transition: 0.3s;
+    border-radius: 1rem;
+
+}
+.discover-card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+.image-section{
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}      
+
+
+.client-rating{
+    margin-bottom: 1rem;
+    color: blue;
+}
+.client-details{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+   
+
+}
+.client-details img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+}
+.client-details h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+.client-card h4{
+    color: var(--white);
+
+}
+.client-details p{
+    font-size: 1rem;
+    transition: 0.3s;
+}
+.footer-main{
+    background-color: rgba(119, 136, 153, 0.073);
+}
